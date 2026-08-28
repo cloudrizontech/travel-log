@@ -3,89 +3,331 @@ title: "Montréal"
 location: "Québec, Canada"
 startDate: "2026-06-28"
 endDate: "2026-07-03"
-description: "A few days exploring Montréal — markets, churches, food, old streets, and a few places we didn't expect to discover."
+description: "A few days exploring Montréal — beautiful churches, old streets, great food, the St. Lawrence River, and the little discoveries that made the trip memorable."
 ---
 
 # Montréal
 
 **June 28 – July 3, 2026**
 
-We drove from Michigan to Montréal and spent several days exploring the city at a relaxed pace.
+We drove from Detroit to Montréal and spent five days exploring the city at a relaxed pace.
 
-What made the trip memorable wasn't just the major attractions. It was the combination of beautiful churches, food, neighborhoods, markets, walking, and the small discoveries along the way.
+What made the trip memorable wasn't just the major attractions. It was the combination of beautiful churches, old neighborhoods, good food, walking, the river, and the small discoveries along the way.
+
+We also learned a few things about how we like to travel in Montréal — what is worth spending time on, what we would skip next time, and when it makes sense to leave the car behind.
+
+## Getting There
+
+We drove from Detroit to Montréal.
+
+### On the way there
+
+**Detroit → Toronto → Kingston → Montréal**
+
+We stopped in Toronto for a late lunch/early dinner and then continued to Kingston, where we stayed overnight before driving on to Montréal.
+
+### On the way home
+
+We drove straight from Montréal back to Detroit without an overnight stop.
+
+We did stop in Mississauga for an early dinner before continuing home.
+
+---
+
+## Getting Around
+
+### Our strategy
+
+**Park once → walk + Uber + Metro**
+
+This worked really well for us.
+
+Once we were in the city, we preferred leaving the car parked and using a combination of walking, the Metro, and Uber.
+
+Uber was especially useful when we weren't comfortable walking to an attraction or restaurant. It wasn't prohibitively expensive, and in several situations it saved us both time and energy.
+
+We found that Montréal is much more enjoyable when we're not constantly moving the car around.
+
+---
 
 ## Saint Joseph's Oratory
 
 Saint Joseph's Oratory was one of the highlights of the entire trip.
 
-We recommend spending **substantial time here** rather than treating it as a quick stop. There is much more to see than just the main basilica.
+This is not a place we would treat as a quick photo stop. We recommend spending **several hours** here and taking the time to explore beyond the main basilica.
 
 ### Parking tip
 
-One thing we learned that many visitors may not know:
+One thing we learned that many visitors may not realize:
 
 **Don't automatically park in the ground-level parking lot.**
 
-You can drive farther up the mountain and park near the top. This makes it much easier to explore the area.
+You can drive much farther up the mountain and park near the top.
 
-Near where you park is also the **original house associated with Saint André Bessette**. It is easy to miss, and we found it to be one of those little discoveries that made the visit more interesting.
+That made it much easier for us to explore the Oratory and the surrounding area.
 
-**Our recommendation:** Give Saint Joseph's Oratory several hours if you have the time.
+### A hidden gem
 
-## Old Montréal & the Old Port
+Near where we parked is the **original house associated with Saint André Bessette**.
 
-We spent time walking through Old Montréal and along the Old Port.
+It is easy to overlook, but we thought it was worth finding.
 
-This was one of our favorite ways to experience the city because we could slow down, walk, stop for food, and explore without constantly getting in and out of the car.
+We also recommend spending time on the outdoor terrace. The views of downtown Montréal and the St. Lawrence River are beautiful.
+
+### If you're Catholic
+
+If you're Catholic, consider attending Mass while you're there.
+
+For us, that changes the experience completely. Instead of feeling like we're simply visiting another tourist attraction, it becomes something much more meaningful.
+
+**Our recommendation:** Don't rush Saint Joseph's Oratory. Give it several hours.
+
+---
+
+## Old Montréal
+
+Old Montréal was one of our favorite parts of the city.
+
+We liked simply walking rather than trying to turn the area into a checklist of attractions.
+
+One approach that worked well for us was to start around the **Old Port**, walk through the streets of Old Montréal, and gradually make our way toward Saint-Laurent.
+
+We would stop for coffee along the way and just wander.
+
+### Don't rush it
+
+For us, the walking and the atmosphere **are** the attraction.
+
+We enjoyed having time to look around, stop when something caught our attention, and experience the neighborhood without worrying about getting to the next destination.
+
+---
+
+## Grand Quay
+
+Grand Quay deserves its own section because it was one of the places we enjoyed spending time.
+
+It is right along the waterfront and gives you another way to experience Montréal beyond the streets of Old Montréal.
+
+The waterfront, views, open spaces, and proximity to the Old Port make it a good place to slow down and take photographs.
+
+We liked that it felt different from simply walking through the historic streets.
+
+**For us, Grand Quay was worth including in a day spent exploring Old Montréal and the Old Port.**
+
+---
 
 ## Notre-Dame Basilica
 
-Notre-Dame Basilica was worth visiting during the day.
+Notre-Dame Basilica is worth visiting during the day.
 
-The architecture and interior are impressive, and it fits naturally into a day exploring Old Montréal.
+The architecture and interior were much more memorable for us than the evening theatrical production.
+
+If you're Catholic, attending Mass is also worth considering. It gives the visit a different character than simply walking through as a tourist.
 
 ### The light show
 
 We also experienced the evening light show.
 
-For us, this wasn't a highlight of the trip.
+For us, this wasn't a highlight.
 
-If time is limited, we'd prioritize exploring the basilica and Old Montréal during the day instead.
+We enjoyed the basilica itself **much more** than the theatrical production.
 
-## Jean-Talon Market
+If time is limited, we'd prioritize visiting the basilica during the day and spending more time exploring Old Montréal.
 
-We visited Jean-Talon Market because we love farmers markets when we travel.
+---
 
-The market was interesting and worth seeing once, but it wasn't one of our favorite experiences of the Montréal trip.
+## The St. Lawrence River
 
-For future visits, we'd probably prioritize other parts of the city.
+We also wanted to experience Montréal from the river.
+
+We started around **Jacques-Cartier Pier** and took a cruise on the St. Lawrence River before continuing to explore the Old Port.
+
+Seeing the city from the water gave us a completely different perspective.
+
+It was a nice change of pace from walking through the city.
+
+---
+
+## Mount Royal
+
+Mount Royal was another place we considered part of the Montréal experience.
+
+One thing we learned is that you can't drive directly to the summit lookout.
+
+However, you can drive up to two main parking areas and then take a relatively short, scenic walk to the top.
+
+That worked well for us because we could combine the drive with a little walking rather than treating it as a major hike.
+
+---
 
 ## Food
 
-One of our favorite discoveries was **Duc de Lorraine**, the pastry shop next to Saint Joseph's Oratory.
+We view regional cuisine as a key part of experiencing a new city. 
 
-It was an unexpected highlight and one of the places we'd happily return to.
+To make the most of our time in Montréal, we prioritized authentic French and local dining over familiar food back home.
 
-## Getting Around
+### Bouillon Bilk
 
-For most of the trip, we found it easier to leave the car parked and explore using walking, the Metro, and Uber.
+Modern and creative.
 
-### Our strategy
+This was one of the restaurants we considered part of our Montréal dining experience.
 
-**Park once → walk + Metro + Uber for the rest of the day**
+### Modavie
 
-The exception was Saint Joseph's Oratory, where having the car made getting up the mountain much easier.
+A French bistro.
 
-## Our Favorite Parts
+We happened to be in the area in the afternoon and stopped by before it opened. We hadn't made a reservation.
 
-- Saint Joseph's Oratory
-- Walking through Old Montréal
+It was a good example of one of the advantages of walking around Montréal — sometimes you find yourself somewhere at exactly the right time.
+
+### Sabrosa
+
+A warm Latin atmosphere.
+
+It was worth the wait when we didn't have a reservation.
+
+### Vieux Port Steakhouse
+
+Excellent service and a fabulous location.
+
+We only stopped for late-afternoon drinks and appetizers, but the location alone made it a memorable stop.
+
+### Duc de Lorraine
+
+One of our favorite discoveries.
+
+The restaurant and patisserie have a classic Parisian feel and are conveniently close to Saint Joseph's Oratory.
+
+The patisserie in particular was a highlight for us.
+
+It was one of those unexpected places we were very happy to have discovered.
+
+### Pizza Il Focolaio
+
+Expect a line.
+
+If you want to eat here, we'd recommend making a reservation if possible.
+
+### St-Viateur Bagels
+
+This was another classic Montréal experience.
+
+We expected a line and ended up waiting more than half an hour.
+
+It was nice to experience once, but in retrospect, we're not sure it was worth the time involved for us.
+
+---
+
+## What We'd Do Differently
+
+One of the things we like about keeping a travel log is being able to look back and remember not just what we did, but what we learned.
+
+Here are some things we'd keep in mind for our next Montréal visit.
+
+### Save Indian food for home
+
+We love Indian food, but Montréal gave us a limited number of dinners.
+
+For us, those meals are better spent exploring French, Montréal, and local cuisine.
+
+### Don't eat every meal in Old Montréal
+
+Old Montréal is convenient and beautiful, but there's much more to Montréal.
+
+We'd rather spread our meals and experiences across different parts of the city.
+
+### Don't wait forever for famous food
+
+We're willing to wait for something special.
+
+But waiting 45 minutes or more simply because something is considered "the most famous" isn't necessarily how we want to spend our vacation time.
+
+### Don't use U.S. cash
+
+Many shops and restaurants that accept U.S. cash do so "at par," meaning they treat 1 U.S. dollar as equal to 1 Canadian dollar. 
+
+Because the U.S. dollar is usually more than the Canadian dollar, you lose money on the actual conversion value.
+
+### Don't rely exclusively on credit cards
+
+Some small busninesses are cash only
+
+### Don't treat Underground City as an attraction
+
+Montréal's Underground City is useful, especially for getting around and staying out of the weather.
+
+But for us, it isn't something we'd put on the sightseeing checklist.
+
+---
+
+## Notable Mention
+### Jean-Talon Market
+
+We visited because we love farmers markets and try to visit them whenever we travel.
+
+If you're specifically interested in markets, it's still worth seeing. We just wouldn't make it a priority next time.
+
+---
+
+## Places We Intentionally Skipped
+### Biodôme
+
+We didn't feel that the Biodôme was a priority for our trip.
+
+Our feeling is that we'd skip it unless our child specifically wanted to visit.
+
+---
+
+## Things We Didn't Get To
+
+There were also places we simply didn't get around to visiting.
+
+### Montréal Museum of Fine Arts
+
+We didn't visit the MMFA during this trip.
+
+### Montréal Botanical Garden
+
+We didn't visit the Botanical Garden either.
+
+Those are both reasons to leave a little room on the itinerary for a future Montréal visit.
+
+---
+
+## Where We Stayed
+
+### Hôtel Bonaventure Montréal
+
+Hôtel Bonaventure worked very well for us.
+
+The location made getting around easy, with **Central Station, underground shopping, transit, and walkable areas** all nearby.
+
+But the feature we especially liked was the hotel itself.
+
+The property has approximately **2.5 acres of gardens, streams, and a year-round outdoor heated pool**.
+
+For us, the combination of location and the hotel's own outdoor space was a great fit for this trip.
+
+---
+
+## Our Big Takeaway
+
+The biggest lesson from Montréal was simple:
+
+**Prioritize experiences you can walk through and feel over checking off every "must-see" attraction.**
+
+What we loved most was:
+
+- Old Montréal
 - The Old Port
-- Duc de Lorraine
-- Discovering places away from the main tourist paths
+- Saint Joseph's Oratory
+- Notre-Dame Basilica
+- Grand Quay
+- Great food
+- Simply walking around and discovering places
 
-## Would We Go Back?
+Those experiences were much more memorable to us than trying to complete a tourist checklist.
 
-**Absolutely.**
+And that's probably how we'd approach Montréal next time too.
 
-Montréal is a city we'd happily return to. On a future visit, we'd spend more time exploring individual neighborhoods rather than trying to see everything in one trip.
+**Would we go back? Absolutely.**
