@@ -1,0 +1,211 @@
+---
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const travels = await getCollection("travels");
+
+  return travels.map((travel) => ({
+    params: {
+      slug: travel.id,
+    },
+    props: {
+      travel,
+    },
+  }));
+}
+
+const { travel } = Astro.props;
+const { Content } = await render(travel);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content={travel.data.description}
+    />
+    <title>{travel.data.title} · Travel Log</title>
+
+    <style>
+      :global(*) {
+        box-sizing: border-box;
+      }
+
+      :global(body) {
+        margin: 0;
+        background: #f8f7f3;
+        color: #242424;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 32px;
+      }
+
+      header {
+        padding: 36px 0;
+        border-bottom: 1px solid #d8d6d0;
+      }
+
+      .brand {
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .back {
+        display: inline-block;
+        margin-top: 24px;
+        color: #777;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .back:hover {
+        color: #000;
+      }
+
+      .hero {
+        padding: 100px 0 70px;
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(52px, 8vw, 90px);
+        font-weight: 400;
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+      }
+
+      .location {
+        margin-top: 28px;
+        color: #777;
+        font-size: 15px;
+      }
+
+      .description {
+        max-width: 650px;
+        margin-top: 36px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 23px;
+        line-height: 1.5;
+      }
+
+      .hero-image {
+        width: 100%;
+        margin-top: 60px;
+        display: block;
+        max-height: 650px;
+        object-fit: cover;
+     }
+
+      .content {
+        padding: 60px 0 120px;
+        border-top: 1px solid #d8d6d0;
+      }
+
+      .content :global(h1) {
+        display: none;
+      }
+
+      .content :global(h2) {
+        margin-top: 70px;
+        margin-bottom: 24px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 38px;
+        font-weight: 400;
+      }
+
+      .content :global(p) {
+        max-width: 700px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 19px;
+        line-height: 1.7;
+      }
+
+      .content :global(ul) {
+        max-width: 700px;
+        padding-left: 24px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 18px;
+        line-height: 1.8;
+      }
+
+      footer {
+        padding: 40px 0;
+        border-top: 1px solid #d8d6d0;
+        color: #777;
+        font-size: 13px;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          padding: 0 20px;
+        }
+
+        .hero {
+          padding: 70px 0 50px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="brand">Travel Log</div>
+
+        <a class="back" href="/">
+          ← Back to Travel Log
+        </a>
+      </div>
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <div class="container">
+                <h1>{travel.data.title}</h1>
+                <div class="location">
+                    
+                    {travel.data.location}
+                    ·
+                    {travel.data.startDate.toLocaleDateString("en-US", {
+                        month: "long",
+                        year: "numeric",
+                    })}
+                </div>
+
+                <p class="description">
+                    {travel.data.description}
+                </p>
+
+                <img
+                class="hero-image"
+                src="/images/montreal/montreal-hero.jpg"
+                alt="Montréal"
+                />
+            </div>
+        </div>
+
+      <article class="content">
+        <div class="container">
+          <Content />
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container">
+        Travel Log · A personal archive
+      </div>
+    </footer>
+  </body>
+</html>

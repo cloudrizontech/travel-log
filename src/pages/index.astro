@@ -1,0 +1,318 @@
+---
+import { getCollection } from "astro:content";
+
+const travels = await getCollection("travels");
+const latestTravel = travels[0];
+
+const title = "Travel Log";
+const description = "Places we've been. Things we've discovered.";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+
+    <style>
+      :global(*) {
+        box-sizing: border-box;
+      }
+
+      :global(body) {
+        margin: 0;
+        background: #f8f7f3;
+        color: #242424;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 32px;
+      }
+
+      header {
+        padding: 36px 0;
+        border-bottom: 1px solid #d8d6d0;
+      }
+
+      .brand {
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      nav {
+        margin-top: 24px;
+        display: flex;
+        gap: 28px;
+      }
+
+      nav a {
+        color: #555;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      nav a:hover {
+        color: #000;
+      }
+
+      .hero {
+        padding: 100px 0 80px;
+      }
+
+      .hero h1 {
+        max-width: 850px;
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(52px, 8vw, 100px);
+        font-weight: 400;
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+      }
+
+      .hero p {
+        max-width: 520px;
+        margin: 36px 0 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 22px;
+        line-height: 1.5;
+        color: #666;
+      }
+
+      .section {
+        padding: 60px 0 100px;
+        border-top: 1px solid #d8d6d0;
+      }
+
+      .section-label {
+        margin-bottom: 32px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #777;
+      }
+
+      .feature-link {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+}
+
+	.feature-link:hover h2 {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 8px;
+	}
+
+	.read-more {
+	display: inline-block;
+	margin-top: 24px;
+	font-size: 13px;
+	letter-spacing: 0.04em;
+	color: #555;
+	}
+	  
+	  .feature {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+        gap: 48px;
+        align-items: center;
+      }
+
+		.feature-image {
+			width: 100%;
+			height: 480px;
+			display: block;
+			object-fit: cover;
+		}
+
+      .feature h2 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .location {
+        margin-top: 18px;
+        color: #777;
+        font-size: 14px;
+      }
+
+      .feature p {
+        margin-top: 28px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 19px;
+        line-height: 1.6;
+      }
+
+      .collections {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+
+      .collection {
+        padding: 28px;
+        min-height: 180px;
+        border: 1px solid #d8d6d0;
+      }
+
+      .collection h3 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 28px;
+        font-weight: 400;
+      }
+
+      .collection p {
+        margin-top: 16px;
+        color: #777;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      footer {
+        padding: 40px 0;
+        border-top: 1px solid #d8d6d0;
+        color: #777;
+        font-size: 13px;
+      }
+
+      @media (max-width: 800px) {
+        .container {
+          padding: 0 20px;
+        }
+
+        .hero {
+          padding: 70px 0 60px;
+        }
+
+        .feature {
+          grid-template-columns: 1fr;
+        }
+
+        .photo-placeholder {
+          min-height: 320px;
+        }
+
+        .collections {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .collections {
+          grid-template-columns: 1fr;
+        }
+
+        nav {
+          gap: 18px;
+          flex-wrap: wrap;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="brand">Travel Log</div>
+
+        <nav>
+          <a href="#">Travels</a>
+          <a href="#">Markets</a>
+          <a href="#">Churches</a>
+          <a href="#">Discoveries</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Places we've been. Things we've discovered.</h1>
+
+          <p>
+            A personal collection of trips, markets, churches, food,
+            and the little discoveries that make traveling memorable.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          	<div class="section-label">Recently</div>
+
+			<a class="feature-link" href={`/travels/${latestTravel.id}/`}>
+				<div class="feature">
+					<img
+						class="feature-image"
+						src="/images/montreal/montreal-hero.jpg"
+						alt="Montréal"
+					/>
+
+					<div>
+					<h2>{latestTravel.data.title}</h2>
+
+					<div class="location">
+						{latestTravel.data.location}
+					</div>
+
+					<p>
+						{latestTravel.data.description}
+					</p>
+
+					<span class="read-more">
+						Read about this trip →
+					</span>
+					</div>
+				</div>
+			</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-label">Explore</div>
+
+          <div class="collections">
+            <div class="collection">
+              <h3>Travels</h3>
+              <p>Trips, cities, photographs, memories and notes.</p>
+            </div>
+
+            <div class="collection">
+              <h3>Markets</h3>
+              <p>Farmers markets we've visited and the ones we love.</p>
+            </div>
+
+            <div class="collection">
+              <h3>Churches</h3>
+              <p>Catholic churches, architecture and reflections.</p>
+            </div>
+
+            <div class="collection">
+              <h3>Discoveries</h3>
+              <p>Restaurants, bakeries, places and unexpected finds.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        Travel Log · A personal archive
+      </div>
+    </footer>
+  </body>
+</html>
