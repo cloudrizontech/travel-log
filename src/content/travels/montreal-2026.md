@@ -166,6 +166,9 @@ We visited because we love farmers markets and try to visit them whenever we tra
 
 If you're specifically interested in markets, it's still worth seeing. We just wouldn't make it a priority next time.
 
+### Little Italy
+We visited Little Italy today to see what the hype was about, but it is a 'one-and-done' experience for us.
+
 --- 
 ## Food
 **Rule of thumb: Book a table ahead of time.**
@@ -182,8 +185,6 @@ A memorable fine dining experience and one of the highlights of our meals in Mon
 ### Modavie
 
 Classic, refined French bistro
-
-We happened to be in the area in the afternoon and stopped by before it opened. We hadn't made a reservation.
 
 We didn't have a reservation, but stopping by right as they opened turned out to be one of the best spontaneous dining decisions of our trip.
 
