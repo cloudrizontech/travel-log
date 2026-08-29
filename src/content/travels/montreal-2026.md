@@ -328,3 +328,5 @@ Those experiences were much more memorable to us than trying to complete a touri
 And that's probably how we'd approach Montréal next time too.
 
 **Would we go back? Absolutely.**
+
+Next time, though, we plan to make Québec City our main destination.
