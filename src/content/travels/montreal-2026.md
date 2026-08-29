@@ -24,7 +24,7 @@ We drove from Detroit to Montréal.
 
 **Detroit → Toronto → Kingston → Montréal**
 
-We stopped in Toronto for a late lunch/early dinner and then continued to Kingston, where we stayed overnight before driving on to Montréal.
+We stopped near Toronto for a late lunch/early dinner, and avoided driving through the city and then continued to Kingston, where we stayed overnight before driving on to Montréal.
 
 ### On the way home
 
