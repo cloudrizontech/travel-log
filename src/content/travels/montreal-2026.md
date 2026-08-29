@@ -160,25 +160,30 @@ That worked well for us because we could combine the drive with a little walking
 
 ---
 
+## Notable Mention
+### Jean-Talon Market
+We visited because we love farmers markets and try to visit them whenever we travel.
+
+If you're specifically interested in markets, it's still worth seeing. We just wouldn't make it a priority next time.
+
+--- 
 ## Food
 
-We view regional cuisine as a key part of experiencing a new city. 
-
-To make the most of our time in Montréal, we prioritized authentic French and local dining over familiar food back home.
+Exploring a city's dining scene is a major highlight of travel for us.
 
 ### Bouillon Bilk
 
 Modern and creative.
 
-This was one of the restaurants we considered part of our Montréal dining experience.
+A memorable fine dining experience and one of the highlights of our meals in Montréal, featuring French-inspired eclectic cuisine.
 
 ### Modavie
 
-A French bistro.
+Classic, refined French bistro
 
 We happened to be in the area in the afternoon and stopped by before it opened. We hadn't made a reservation.
 
-It was a good example of one of the advantages of walking around Montréal — sometimes you find yourself somewhere at exactly the right time.
+We didn't have a reservation, but stopping by right as they opened turned out to be one of the best spontaneous dining decisions of our trip.
 
 ### Sabrosa
 
@@ -186,11 +191,11 @@ A warm Latin atmosphere.
 
 It was worth the wait when we didn't have a reservation.
 
-### Vieux Port Steakhouse
+### Solmar
 
-Excellent service and a fabulous location.
+Traditional Portuguese cuisine
 
-We only stopped for late-afternoon drinks and appetizers, but the location alone made it a memorable stop.
+We only stopped for late-afternoon drinks and appetizers, but the location and service alone made it a memorable stop.
 
 ### Duc de Lorraine
 
@@ -208,9 +213,15 @@ Expect a line.
 
 If you want to eat here, we'd recommend making a reservation if possible.
 
+### Brit & Chips 
+
+Traditional British fish and chips shop ("chippy") 
+
+Stopping here for fish and chips brought back wonderful Melbourne memories.
+
 ### St-Viateur Bagels
 
-This was another classic Montréal experience.
+Classic Montréal experience.
 
 We expected a line and ended up waiting more than half an hour.
 
@@ -218,23 +229,7 @@ It was nice to experience once, but in retrospect, we're not sure it was worth t
 
 ---
 
-## What We'd Do Differently
-
-One of the things we like about keeping a travel log is being able to look back and remember not just what we did, but what we learned.
-
-Here are some things we'd keep in mind for our next Montréal visit.
-
-### Save Indian food for home
-
-We love Indian food, but Montréal gave us a limited number of dinners.
-
-For us, those meals are better spent exploring French, Montréal, and local cuisine.
-
-### Don't eat every meal in Old Montréal
-
-Old Montréal is convenient and beautiful, but there's much more to Montréal.
-
-We'd rather spread our meals and experiences across different parts of the city.
+## Reminder For Future Montreal Trip
 
 ### Don't wait forever for famous food
 
@@ -260,21 +255,10 @@ But for us, it isn't something we'd put on the sightseeing checklist.
 
 ---
 
-## Notable Mention
-### Jean-Talon Market
-
-We visited because we love farmers markets and try to visit them whenever we travel.
-
-If you're specifically interested in markets, it's still worth seeing. We just wouldn't make it a priority next time.
-
----
-
 ## Places We Intentionally Skipped
 ### Biodôme
 
 We didn't feel that the Biodôme was a priority for our trip.
-
-Our feeling is that we'd skip it unless our child specifically wanted to visit.
 
 ---
 

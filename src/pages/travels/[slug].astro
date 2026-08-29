@@ -162,7 +162,7 @@ const { Content } = await render(travel);
       <div class="container">
         <div class="brand">Travel Log</div>
 
-        <a class="back" href="/">
+        <a class="back" href={import.meta.env.BASE_URL}>
           ← Back to Travel Log
         </a>
       </div>
@@ -189,7 +189,7 @@ const { Content } = await render(travel);
 
                 <img
                 class="hero-image"
-                src="/images/montreal/montreal-hero.jpg"
+                src={`${import.meta.env.BASE_URL}images/montreal/montreal-hero.jpg`}
                 alt="Montréal"
                 />
             </div>

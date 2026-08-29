@@ -252,11 +252,11 @@ const description = "Places we've been. Things we've discovered.";
         <div class="container">
           	<div class="section-label">Recently</div>
 
-			<a class="feature-link" href={`/travels/${latestTravel.id}/`}>
+			<a class="feature-link" href={`${import.meta.env.BASE_URL}travels/${latestTravel.id}/`}>
 				<div class="feature">
 					<img
 						class="feature-image"
-						src="/images/montreal/montreal-hero.jpg"
+						src={`${import.meta.env.BASE_URL}images/montreal/montreal-hero.jpg`}
 						alt="Montréal"
 					/>
 
