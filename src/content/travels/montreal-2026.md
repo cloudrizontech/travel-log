@@ -168,8 +168,10 @@ If you're specifically interested in markets, it's still worth seeing. We just w
 
 --- 
 ## Food
+**Rule of thumb: Book a table ahead of time.**
 
 Exploring a city's dining scene is a major highlight of travel for us.
+
 
 ### Bouillon Bilk
 
@@ -218,6 +220,17 @@ If you want to eat here, we'd recommend making a reservation if possible.
 Traditional British fish and chips shop ("chippy") 
 
 Stopping here for fish and chips brought back wonderful Melbourne memories.
+
+### Schwartz's Deli
+
+The Montreal Hebrew Delicatessen
+
+Old-School Vibe, Fast-Paced Service, Long Wait Times. 
+
+This was a non-negotiable stop for our son, who lives by his trusty rule: "If it's not meat, I don't eat!"
+
+Takeout Hack: Skip the dine-in queue and head to the dedicated takeout counter right next door, which serves the exact same food.
+
 
 ### St-Viateur Bagels
 
