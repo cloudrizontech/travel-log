@@ -167,7 +167,7 @@ We visited because we love farmers markets and try to visit them whenever we tra
 If you're specifically interested in markets, it's still worth seeing. We just wouldn't make it a priority next time.
 
 ### Little Italy
-We visited Little Italy today to see what the hype was about, but it is a 'one-and-done' experience for us.
+We visited to see what the hype was about, but it is a 'one-and-done' experience for us.
 
 --- 
 ## Food
