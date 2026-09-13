@@ -1,13 +1,12 @@
 ---
 import { getCollection } from "astro:content";
 
-const travels = await getCollection("travels");
-const [latestTravel] = travels.sort(
+const travels = (await getCollection("travels")).sort(
   (a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf()
 );
 
-const title = "Travel Log";
-const description = "Places we've been. Things we've discovered.";
+const title = "Travels · Travel Log";
+const description = "Trips, cities, photographs, memories and notes.";
 ---
 
 <!doctype html>
@@ -48,31 +47,26 @@ const description = "Places we've been. Things we've discovered.";
         text-transform: uppercase;
       }
 
-      nav {
+      .back {
+        display: inline-block;
         margin-top: 24px;
-        display: flex;
-        gap: 28px;
-      }
-
-      nav a {
-        color: #555;
+        color: #777;
         text-decoration: none;
         font-size: 14px;
       }
 
-      nav a:hover {
+      .back:hover {
         color: #000;
       }
 
       .hero {
-        padding: 100px 0 80px;
+        padding: 70px 0 50px;
       }
 
       .hero h1 {
-        max-width: 850px;
         margin: 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(52px, 8vw, 100px);
+        font-size: clamp(44px, 7vw, 76px);
         font-weight: 400;
         line-height: 0.95;
         letter-spacing: -0.04em;
@@ -80,109 +74,61 @@ const description = "Places we've been. Things we've discovered.";
 
       .hero p {
         max-width: 520px;
-        margin: 36px 0 0;
+        margin: 28px 0 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.5;
         color: #666;
       }
 
       .section {
-        padding: 60px 0 100px;
-        border-top: 1px solid #d8d6d0;
+        padding: 20px 0 100px;
       }
 
-      .section-label {
-        margin-bottom: 32px;
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: #777;
-      }
-
-      .feature-link {
-		display: block;
-		color: inherit;
-		text-decoration: none;
-}
-
-	.feature-link:hover h2 {
-	text-decoration: underline;
-	text-decoration-thickness: 1px;
-	text-underline-offset: 8px;
-	}
-
-	.read-more {
-	display: inline-block;
-	margin-top: 24px;
-	font-size: 13px;
-	letter-spacing: 0.04em;
-	color: #555;
-	}
-	  
-	  .feature {
+      .entries {
         display: grid;
-        grid-template-columns: 1.4fr 1fr;
-        gap: 48px;
-        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
       }
 
-		.feature-image {
-			width: 100%;
-			height: 480px;
-			display: block;
-			object-fit: cover;
-		}
+      .entry {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+      }
 
-      .feature h2 {
-        margin: 0;
+      .entry-image {
+        width: 100%;
+        height: 320px;
+        display: block;
+        object-fit: cover;
+      }
+
+      .entry h2 {
+        margin: 28px 0 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 52px;
+        font-size: 34px;
         font-weight: 400;
-        line-height: 1;
+        line-height: 1.05;
+      }
+
+      .entry:hover h2 {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 8px;
       }
 
       .location {
+        margin-top: 14px;
+        color: #777;
+        font-size: 14px;
+      }
+
+      .entry p {
         margin-top: 18px;
-        color: #777;
-        font-size: 14px;
-      }
-
-      .feature p {
-        margin-top: 28px;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 19px;
+        font-size: 17px;
         line-height: 1.6;
-      }
-
-      .collections {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-      }
-
-      .collection {
-        padding: 28px;
-        min-height: 180px;
-        border: 1px solid #d8d6d0;
-        text-decoration: none;
-        color: inherit;
-        display: block;
-      }
-
-      .collection h3 {
-        margin: 0;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 28px;
-        font-weight: 400;
-      }
-
-      .collection p {
-        margin-top: 16px;
-        color: #777;
-        font-size: 14px;
-        line-height: 1.5;
       }
 
       footer {
@@ -197,31 +143,8 @@ const description = "Places we've been. Things we've discovered.";
           padding: 0 20px;
         }
 
-        .hero {
-          padding: 70px 0 60px;
-        }
-
-        .feature {
+        .entries {
           grid-template-columns: 1fr;
-        }
-
-        .photo-placeholder {
-          min-height: 320px;
-        }
-
-        .collections {
-          grid-template-columns: 1fr 1fr;
-        }
-      }
-
-      @media (max-width: 500px) {
-        .collections {
-          grid-template-columns: 1fr;
-        }
-
-        nav {
-          gap: 18px;
-          flex-wrap: wrap;
         }
       }
     </style>
@@ -232,92 +155,60 @@ const description = "Places we've been. Things we've discovered.";
       <div class="container">
         <div class="brand">Travel Log</div>
 
-        <nav>
-          <a href="#">Travels</a>
-          <a href="#">Markets</a>
-          <a href="#">Churches</a>
-          <a href="#">Discoveries</a>
-        </nav>
+        <a class="back" href={import.meta.env.BASE_URL}>
+          ← Back to Travel Log
+        </a>
       </div>
     </header>
 
     <main>
       <section class="hero">
         <div class="container">
-          <h1>Places we've been. Things we've discovered.</h1>
-
-          <p>
-            A personal collection of trips, markets, churches, food,
-            and the little discoveries that make traveling memorable.
-          </p>
+          <h1>Travels</h1>
+          <p>{description}</p>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
-          	<div class="section-label">Recently</div>
+          <div class="entries">
+            {
+              travels.map((travel) => {
+                const folder = travel.id.split("-")[0];
 
-			<a class="feature-link" href={`${import.meta.env.BASE_URL}/travels/${latestTravel.id}/`}>
-				<div class="feature">
-					<img
-						class="feature-image"
-						src={`${import.meta.env.BASE_URL}/images/montreal/montreal-hero.jpg`}
-						alt="Montréal"
-					/>
+                return (
+                  <a
+                    class="entry"
+                    href={`${import.meta.env.BASE_URL}/travels/${travel.id}/`}
+                  >
+                    <img
+                      class="entry-image"
+                      src={`${import.meta.env.BASE_URL}/images/${folder}/${folder}-hero.jpg`}
+                      alt={travel.data.title}
+                    />
 
-					<div>
-					<h2>{latestTravel.data.title}</h2>
+                    <h2>{travel.data.title}</h2>
 
-					<div class="location">
-						{latestTravel.data.location}
-					</div>
+                    <div class="location">
+                      {travel.data.location} ·{" "}
+                      {travel.data.startDate.toLocaleDateString("en-US", {
+                        month: "long",
+                        year: "numeric",
+                      })}
+                    </div>
 
-					<p>
-						{latestTravel.data.description}
-					</p>
-
-					<span class="read-more">
-						Read about this trip →
-					</span>
-					</div>
-				</div>
-			</a>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="section-label">Explore</div>
-
-          <div class="collections">
-            <a class="collection" href={`${import.meta.env.BASE_URL}/travels/`}>
-              <h3>Travels</h3>
-              <p>Trips, cities, photographs, memories and notes.</p>
-            </a>
-
-            <div class="collection">
-              <h3>Markets</h3>
-              <p>Farmers markets we've visited and the ones we love.</p>
-            </div>
-
-            <div class="collection">
-              <h3>Churches</h3>
-              <p>Catholic churches, architecture and reflections.</p>
-            </div>
-
-            <div class="collection">
-              <h3>Discoveries</h3>
-              <p>Local museums, music festivals, art shows and unexpected finds.</p>
-            </div>
+                    <p>{travel.data.description}</p>
+                  </a>
+                );
+              })
+            }
           </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="container">
-        Travel Log · A personal archive
-      </div>
+      <div class="container">Travel Log · A personal archive</div>
     </footer>
   </body>
 </html>
