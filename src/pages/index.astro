@@ -2,7 +2,9 @@
 import { getCollection } from "astro:content";
 
 const travels = await getCollection("travels");
-const latestTravel = travels[0];
+const [latestTravel] = travels.sort(
+  (a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf()
+);
 
 const title = "Travel Log";
 const description = "Places we've been. Things we've discovered.";
@@ -164,6 +166,9 @@ const description = "Places we've been. Things we've discovered.";
         padding: 28px;
         min-height: 180px;
         border: 1px solid #d8d6d0;
+        text-decoration: none;
+        color: inherit;
+        display: block;
       }
 
       .collection h3 {
@@ -285,10 +290,10 @@ const description = "Places we've been. Things we've discovered.";
           <div class="section-label">Explore</div>
 
           <div class="collections">
-            <div class="collection">
+            <a class="collection" href={`${import.meta.env.BASE_URL}/travels/`}>
               <h3>Travels</h3>
               <p>Trips, cities, photographs, memories and notes.</p>
-            </div>
+            </a>
 
             <div class="collection">
               <h3>Markets</h3>

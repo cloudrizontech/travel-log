@@ -3,6 +3,7 @@ title: "Montréal"
 location: "Québec, Canada"
 startDate: "2026-06-28"
 endDate: "2026-07-03"
+featured: true
 description: "A few days exploring Montréal — beautiful churches, old streets, great food, the St. Lawrence River, and the little discoveries that made the trip memorable."
 ---
 
